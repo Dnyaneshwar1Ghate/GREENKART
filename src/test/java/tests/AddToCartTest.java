@@ -3,7 +3,7 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Base.BaseTest;
+import base.BaseTest;
 import pages.CartPage;
 import pages.CheckOutPage;
 import pages.ChooseCountry;

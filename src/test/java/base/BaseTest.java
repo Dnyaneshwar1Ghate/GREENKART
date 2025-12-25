@@ -1,4 +1,4 @@
-package Base;
+package base;
 
 import java.time.Duration;
 
@@ -44,7 +44,7 @@ public class BaseTest {
         localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         driverThread.set(localDriver);
-        driver = getDriver();   // <-- IMPORTANT
+        driver = getDriver(); 
 
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
     }
