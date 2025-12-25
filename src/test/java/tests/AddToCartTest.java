@@ -34,6 +34,7 @@ public class AddToCartTest extends BaseTest {
 
 		Assert.assertTrue(home.isHomePageLogoDisplayed(), "Home page logo not displayed after order redirect");
 		System.out.println("Test case pass for addToCartTest");
+		System.out.println("Thank you...");
 
 	}
 }
