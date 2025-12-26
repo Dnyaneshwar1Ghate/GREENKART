@@ -27,7 +27,7 @@ public class AddToCartTest extends BaseTest {
 		order.placeOrderClick();
 
 		ChooseCountry choose = new ChooseCountry(getDriver());
-		choose.getCuntryList("india");
+		choose.selectCountry("india");
 		choose.agreeAndProceed();
 
 		HomePageLogoVeriFy home = new HomePageLogoVeriFy(getDriver());
